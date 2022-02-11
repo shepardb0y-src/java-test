@@ -1,0 +1,25 @@
+package Lessons;
+
+public class Arraylesson {
+
+	public static void main(String[] args) {
+	// In Java all arrays are dynamically allocated .
+		//they're objects wich gives us access to do things with it such as finding its length
+		//ti create an array use [] after tyhe data type.
+		//Arrays can be used for Static fields, local variables, and method paranmaters.
+		//size of the array can be specified with in or short but not long
+		// One -dimensional Arrays
+		//Declaration
+		// two comoponents : type& name
+		
+		//int intArray[];
+	//	int intArray; // prefered declaration way
+		
+		// Instantiation
+		// Size is fixed and cannot be resized after location
+		//intArray = new int [20];
+		//one liner all together -combining both statements
+		int[] intArray = new int[20];
+	}
+
+}
