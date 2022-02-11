@@ -13,7 +13,7 @@
 public class mod3hw1 {
 
 	public static boolean getUp(boolean sqwuaking, int currentHour){
-		if (currentHour >=0 && currentHour < 6 ||currentHour >22 && currentHour < 23) {
+		if (currentHour >=0 && currentHour > 6 ||currentHour >22 && currentHour <23) {
 			
 		 return true;
 		}else {
@@ -23,7 +23,7 @@ public class mod3hw1 {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(getUp(true, 18));
+		System.out.println(getUp(true, 8));
 	}
 
 }
