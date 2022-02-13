@@ -51,7 +51,26 @@ public class Mod3hw2 {
         animals.set(1, "lion");
         System.out.println(animals);
 //    Write a Java program to trim the capacity of an array list the current list size
-//
+//  // creating an Empty Integer ArrayList
+        ArrayList<Integer> arr = new ArrayList<Integer>(8);
+  
+    
+        arr.add(0);
+        arr.add(7);
+        arr.add(16);
+        arr.add(6);
+        arr.add(11);
+  
+        // trims the size to the number of elements
+        arr.trimToSize();
+  
+        System.out.println("The List elements are:");
+  
+        // prints all the elements
+        for (Integer number : arr) {
+            System.out.println("Number = " + number);
+        }
+    }
 //    Write a Java program to test a hash set is empty or not.
 //
 //            Write a Java program to get the number of elements in a hash set
@@ -63,4 +82,4 @@ public class Mod3hw2 {
 //            Write a Java program to compare two sets and retain elements that are the same on both sets.
 	}
 
-}
+
